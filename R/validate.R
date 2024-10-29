@@ -1,6 +1,7 @@
 library(pointblank)
 library(readr)
 library(tidyr)
+library(dplyr)
 
 heliconia <- read_csv("data/heliconia_sample.csv")
 
