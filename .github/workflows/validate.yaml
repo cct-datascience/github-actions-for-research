@@ -1,8 +1,12 @@
+# Run when changes to the data folder are pushed to the main branch or made
+# via a pull request OR on workflow dispatch
 on:
   push:
     branches: main
+    paths: 'data'
   pull_request:
     branches: main
+    paths: 'data'
   workflow_dispatch:
 
 name: validate.yaml
@@ -20,7 +24,7 @@ jobs:
         with:
           r-version: "renv" #use the same version of R recorded in renv.lock
       
-      - name: Install R Packages
+      - name: Install R packages
         uses: r-lib/actions/setup-renv@v2
         
       - name: Run validate.R
