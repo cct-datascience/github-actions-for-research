@@ -3,10 +3,10 @@
 on:
   push:
     branches: main
-    paths: 'data'
+    paths: 'data/**'
   pull_request:
     branches: main
-    paths: 'data'
+    paths: 'data/**'
   workflow_dispatch:
 
 name: validate.yaml
