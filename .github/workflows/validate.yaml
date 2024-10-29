@@ -10,6 +10,8 @@ name: validate.yaml
 jobs:
   validate:
     runs-on: ubuntu-latest
+    env:
+      RENV_CONFIG_PAK_ENABLED: TRUE
     steps:
       - uses: actions/checkout@v4
       
