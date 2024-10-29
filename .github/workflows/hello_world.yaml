@@ -4,7 +4,7 @@ on:
 name: hello_world.yaml
 
 jobs:
-  validate:
+  hello-world:
     runs-on: ubuntu-latest
     env:
       RENV_CONFIG_PAK_ENABLED: TRUE
