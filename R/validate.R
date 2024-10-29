@@ -16,8 +16,7 @@ heliconia_tidy <- heliconia |>
   pivot_wider(names_from = "variable", values_from = "value")
 
 al <- action_levels(
-  warn_at = 1, #warn when 1 or more rows fail
-  stop_at = 0.05 #error when 5% of rows or more fail
+  stop_at = 1 #error if even 1 row fails
 )
 
 heliconia_tidy |> 
@@ -53,7 +52,7 @@ heliconia_tidy |>
   col_vals_between(
     columns = infl,
     left = 0,
-    right = 3,
+    right = 6,
     na_pass = TRUE,
     actions = al
   )
