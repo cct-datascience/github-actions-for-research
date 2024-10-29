@@ -6,8 +6,6 @@ name: hello_world.yaml
 jobs:
   hello-world:
     runs-on: ubuntu-latest
-    env:
-      RENV_CONFIG_PAK_ENABLED: TRUE
     steps:
       - uses: actions/checkout@v4
       
