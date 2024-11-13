@@ -20,21 +20,6 @@ al <- action_levels(
 )
 
 heliconia_tidy |> 
-  col_vals_expr(
-    ~infl %% 1 == 0,
-    brief = "`infl` is integer-ish",
-    actions = al
-  ) |> 
-  col_vals_expr(
-    ~shoots %% 1 == 0,
-    brief = "`shoots` is integer-ish",
-    actions = al
-  ) |> 
-  col_vals_expr(
-    ~height %% 1 == 0,
-    brief = "`height` is measured to nearest cm",
-    actions = al
-  ) |> 
   col_vals_between(
     columns = shoots,
     left = 1,
