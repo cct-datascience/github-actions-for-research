@@ -27,6 +27,8 @@ heliconia_tidy <- heliconia |>
   pivot_wider(names_from = "variable", values_from = "value")
 ```
 
+Below is a simple example of a validation report created with `pointblank`.  See the vignette for the [VALID-I workflow](https://rstudio.github.io/pointblank/articles/VALID-I.html) for more.
+
 ```{r}
 #| label: validate
 #| echo: false
