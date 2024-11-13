@@ -15,7 +15,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     env:
-      RENV_CONFIG_PAK_ENABLED: TRUE
+      RENV_CONFIG_PAK_ENABLED: TRUE #use the `pak` package for installing R packages—it automatically detects and install system dependencies on ubuntu
     steps:
       - uses: actions/checkout@v4
       
@@ -25,7 +25,7 @@ jobs:
           r-version: "renv" #use the same version of R recorded in renv.lock
       
       - name: Install R packages
-        uses: r-lib/actions/setup-renv@v2
+        uses: r-lib/actions/setup-renv@v2 #uses `renv::restore()`
         
       - name: Run validate.R
         run: |

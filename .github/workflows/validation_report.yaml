@@ -10,6 +10,8 @@ name: Quarto Publish
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    env:
+      RENV_CONFIG_PAK_ENABLED: TRUE
     permissions:
       contents: write
     steps:
