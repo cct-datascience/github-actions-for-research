@@ -1,3 +1,6 @@
+#' This example renders and publishes a Quarto document.  In this case, the 
+#' Quarto document contains R code that we want to re-run, so the action also 
+#' installs R and R package dependencies like in the validate.yaml workflow.
 on:
   workflow_dispatch:
   push:

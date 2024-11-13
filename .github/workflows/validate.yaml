@@ -1,5 +1,15 @@
-# Run when changes to the data folder are pushed to the main branch or made
-# via a pull request OR on workflow dispatch
+#' This example runs an R script that errors when there are problems with the 
+#' data, causing the action to fail on GitHub.  It is set to run when changes 
+#' are pushed to the main branch or when pull requests are made to the main 
+#' branch, but *only* if the data/ folder has changes.  You can also run it with
+#' a button on GitHub (`workflow_dispatch`).  Compared to the simple 
+#' `hello_world.yaml` example, this handles installing R packages differently.  
+#' The required packages are in a renv.lock file created by the `renv` R package.  
+#' This workflow uses the setup-renv action to install those needed packages and 
+#' cache them so this step runs faster subsequent times.  It also uses the `pak` 
+#' package as a back-end to do the actual installing.  `pak` is able to deterine 
+#' any system libraries or command line tools an R package needs and installs 
+#' those as well.
 on:
   push:
     branches: main
