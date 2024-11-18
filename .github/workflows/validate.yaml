@@ -11,13 +11,13 @@
 #' any system libraries or command line tools an R package needs and installs 
 #' those as well.
 on:
-  push:
-    branches: main
-    paths: 'data/**'
-  pull_request:
-    branches: main
-    paths: 'data/**'
-  workflow_dispatch:
+  # push:
+  #   branches: main
+  #   paths: 'data/**'
+  # pull_request:
+  #   branches: main
+  #   paths: 'data/**'
+  workflow_dispatch
 
 name: Validate Data
 

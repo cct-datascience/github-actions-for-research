@@ -6,11 +6,11 @@
 #' line once before it will work.
 #' Copied and modified from: https://github.com/quarto-dev/quarto-actions/blob/main/examples/quarto-publish-example.yml
 on:
-  workflow_dispatch:
-  push:
-    branches: main
-  pull_request:
-    branches: main
+  workflow_dispatch
+  # push:
+  #   branches: main
+  # pull_request:
+  #   branches: main
 
 name: Publish Validation Report
 

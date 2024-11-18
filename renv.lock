@@ -262,6 +262,18 @@
       "Repository": "CRAN",
       "Hash": "14eb0596f987c71535d07c3aff814742"
     },
+    "cowsay": {
+      "Package": "cowsay",
+      "Version": "0.9.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "crayon",
+        "fortunes",
+        "rmsfact"
+      ],
+      "Hash": "4e3813de2df6391b7add61c63631262c"
+    },
     "cpp11": {
       "Package": "cpp11",
       "Version": "0.5.0",
@@ -431,6 +443,16 @@
         "rlang"
       ],
       "Hash": "c2efdd5f0bcd1ea861c2d4e2a883a67d"
+    },
+    "fortunes": {
+      "Package": "fortunes",
+      "Version": "1.5-4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "d031a520bc2c989180c772dbc6851088"
     },
     "fs": {
       "Package": "fs",
@@ -998,6 +1020,13 @@
         "yaml"
       ],
       "Hash": "062470668513dcda416927085ee9bdc7"
+    },
+    "rmsfact": {
+      "Package": "rmsfact",
+      "Version": "0.0.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "9e53733ec853fb8e5f2c74420c66e10b"
     },
     "rprojroot": {
       "Package": "rprojroot",
