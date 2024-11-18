@@ -4,6 +4,7 @@
 #' Upon creating a repo from this template, this action will initially fail.
 #' You need to run `quarto publish gh-pages docs/report.qmd` on your command 
 #' line once before it will work.
+#' Copied and modified from: https://github.com/quarto-dev/quarto-actions/blob/main/examples/quarto-publish-example.yml
 on:
   workflow_dispatch:
   push:
@@ -11,7 +12,7 @@ on:
   pull_request:
     branches: main
 
-name: validation_report
+name: Publish Validation Report
 
 jobs:
   build-deploy:
@@ -41,4 +42,4 @@ jobs:
           target: gh-pages
           path: docs/report.qmd
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
