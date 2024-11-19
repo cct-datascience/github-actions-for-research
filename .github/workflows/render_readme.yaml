@@ -40,3 +40,9 @@ jobs:
         with:
           to: gfm
           path: README.qmd
+      
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Render README
+          file_pattern: README.md
