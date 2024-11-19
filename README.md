@@ -1,6 +1,8 @@
 # GitHub Actions For Research
 Eric Scott
 
+<!-- README.md is generated from README.qmd.  Do not edit README.md, edit README.qmd instead! -->
+
 TODO: explain what this is
 
 ## Example Report
