@@ -1,6 +1,8 @@
 # GitHub Actions For Research
 Eric Scott
 
+TODO: explain what this is
+
 ## Example Report
 
 One example workflow involves re-rendering this README to include some
