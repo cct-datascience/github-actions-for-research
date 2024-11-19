@@ -4,6 +4,7 @@
 #' Upon creating a repo from this template, this action will initially fail.
 #' You need to run `quarto publish gh-pages docs/report.qmd` on your command 
 #' line once before it will work.
+#' Read more: https://quarto.org/docs/publishing/github-pages.html
 #' Copied and modified from: https://github.com/quarto-dev/quarto-actions/blob/main/examples/quarto-publish-example.yml
 on:
   workflow_dispatch
