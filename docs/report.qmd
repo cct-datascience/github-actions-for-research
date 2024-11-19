@@ -1,6 +1,7 @@
 ---
 title: Data Validation Report
 date: today
+format: html
 ---
 
 ```{r}
@@ -61,5 +62,4 @@ heliconia_tidy |>
     na_pass = TRUE,
     actions = al
   ) |> interrogate()
-
 ```
