@@ -19,7 +19,7 @@ on:
   #   paths: 'data/**'
   workflow_dispatch
 
-name: Validate Data
+name: 02-Validate Data
 
 jobs:
   validate:

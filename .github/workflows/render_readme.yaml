@@ -11,7 +11,7 @@ on:
   # pull_request:
   #   branches: main
 
-name: Render README
+name: 04-Render README
 
 jobs:
   build-deploy:

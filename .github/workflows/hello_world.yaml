@@ -5,7 +5,7 @@
 on:
   workflow_dispatch
 
-name: "Hello World!"
+name: "01-Hello World!"
 
 jobs:
   hello-world:

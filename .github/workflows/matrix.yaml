@@ -13,7 +13,7 @@
 on:
   workflow_dispatch
 
-name: Model AZMET data
+name: 06-Model AZMET data
 
 jobs:
   azmet:

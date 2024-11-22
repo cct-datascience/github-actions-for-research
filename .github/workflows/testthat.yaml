@@ -7,7 +7,7 @@ on:
   #   paths: 'data/**'
   workflow_dispatch
 
-name: Run validation tests
+name: 03-Run validation tests
 #' This starts off identically to validate.yaml but instead of running an R 
 #' script with tests in it directly, it runs testthat::test_dir() to run tests. 
 #' There is a much more complex example of testing data like this here: 

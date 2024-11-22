@@ -13,7 +13,7 @@ on:
   # pull_request:
   #   branches: main
 
-name: Publish Validation Report
+name: 05-Publish Validation Report
 
 jobs:
   build-deploy:
