@@ -19,7 +19,7 @@ jobs:
   azmet:
     strategy:
       matrix:
-        station_id: [az01, az02, az04, az05, az06, az07, az08, az09, az12, az14, az15, az19, az20, az22, az23, az24, az26, az27, az28, az32, az33, az35, az36, az37, az38, az39, az40, az41, az42, az43, az44]
+        station_id: [az01, az02, az04, az05, az06, az07, az08, az09, az12, az14, az15, az19, az20, az22, az23, az24, az26, az27, az28, az32, az33, az35, az36, az37, az38, az39, az40, az41]
     runs-on: ubuntu-latest
     env:
       RENV_CONFIG_PAK_ENABLED: TRUE #use the `pak` package for installing R packages—it automatically detects and install system dependencies on ubuntu
