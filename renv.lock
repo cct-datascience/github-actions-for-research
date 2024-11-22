@@ -119,9 +119,12 @@
     "azmetr": {
       "Package": "azmetr",
       "Version": "0.4.0",
-      "Source": "Repository",
-      "Repository": "https://cct-datascience.r-universe.dev",
-      "RemoteUrl": "https://github.com/uace-azmet/azmetr",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "azmetr",
+      "RemoteUsername": "uace-azmet",
+      "RemotePkgRef": "uace-azmet/azmetr",
       "RemoteSha": "3daee2bedaf67cc98be0ccc4589ffd1a14ecabf0",
       "Requirements": [
         "R",
@@ -136,7 +139,7 @@
         "tibble",
         "tidyselect"
       ],
-      "Hash": "1da33b210ac3540ae4ff37ebf716905b"
+      "Hash": "2be8a55e196509763ec39de842e166e8"
     },
     "backports": {
       "Package": "backports",
@@ -250,7 +253,7 @@
     },
     "broom": {
       "Package": "broom",
-      "Version": "1.0.6",
+      "Version": "1.0.7",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -266,7 +269,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "a4652c36d1f8abfc3ddf4774f768c934"
+      "Hash": "8fcc818f3b9887aebaf206f141437cc9"
     },
     "bslib": {
       "Package": "bslib",
@@ -747,9 +750,14 @@
     },
     "httr2": {
       "Package": "httr2",
-      "Version": "1.0.6",
-      "Source": "Repository",
-      "Repository": "CRAN",
+      "Version": "1.0.5.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "httr2",
+      "RemoteUsername": "r-lib",
+      "RemotePkgRef": "r-lib/httr2",
+      "RemoteSha": "7271bc88b879d4bbb8faa3269c2cebecccb7e04d",
       "Requirements": [
         "R",
         "R6",
@@ -764,7 +772,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "3ef5d07ec78803475a94367d71b40c41"
+      "Hash": "04e8ca3c75dc9cf4a23d4f2c53154db5"
     },
     "isoband": {
       "Package": "isoband",
