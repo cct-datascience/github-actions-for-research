@@ -40,7 +40,18 @@ Actions in this repo:
 
 ### References
 
-<div class="refs">
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
+
+<div id="ref-bruna2023" class="csl-entry">
+
+Bruna, Emilio M., María Uriarte, Maria Rosa Darrigo, Paulo Rubim,
+Cristiane F. Jurinitz, Eric R. Scott, Osmaildo Ferreira da Silva, and
+John W. Kress. 2023. “Demography of the Understory Herb *Heliconia
+Acuminata* (Heliconiaceae) in an Experimentally Fragmented Tropical
+Landscape.” *Ecology* 104 (12). <https://doi.org/10.1002/ecy.4174>.
+
+</div>
 
 </div>
 
@@ -56,18 +67,3 @@ updated histograms of the example dataset in `data/heliconia_sample.csv`
 ![](README_files/figure-commonmark/unnamed-chunk-2-2.png)
 
 ![](README_files/figure-commonmark/unnamed-chunk-2-3.png)
-
-<div id="refs" class="references csl-bib-body hanging-indent"
-entry-spacing="0">
-
-<div id="ref-bruna2023" class="csl-entry">
-
-Bruna, Emilio M., María Uriarte, Maria Rosa Darrigo, Paulo Rubim,
-Cristiane F. Jurinitz, Eric R. Scott, Osmaildo Ferreira da Silva, and
-John W. Kress. 2023. “Demography of the Understory Herb *Heliconia
-Acuminata* (Heliconiaceae) in an Experimentally Fragmented Tropical
-Landscape.” *Ecology* 104 (12). <https://doi.org/10.1002/ecy.4174>.
-
-</div>
-
-</div>

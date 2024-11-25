@@ -32,7 +32,7 @@ Data validation was run on this dataset using GitHub Actions in this repo: [http
 
 ### References
 
-::: refs
+::: {#refs}
 :::
 
 ------------------------------------------------------------------------
