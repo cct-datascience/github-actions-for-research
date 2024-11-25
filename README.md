@@ -4,12 +4,13 @@ Eric Scott
 <!-- README.md is generated from README.qmd.  Do not edit README.md, edit README.qmd instead! -->
 
 This repository contains some example uses of GitHub Actions for
-automating scientific data workflows. It is inspired heavily by \[a
-workshop\] given at US-RSE 2024 by @valentina-s, @gbrencher, and
-@scottyhq. Their book and repository contains additional examples and is
-more python focused, while the examples in this repository is more R
-focused and will be used in a shorter format
-\[workshop\](<https://datascience.cct.arizona.edu/events/automating-research-data-workflows-github-actions>)
+automating scientific data workflows. It is inspired heavily by [a
+workshop](https://githubactionstutorial-usrse24.readthedocs.io/en/latest/intro.html)
+given at US-RSE 2024 by @valentina-s, @gbrencher, and @scottyhq. Their
+book and repository contains additional examples and is more python
+focused, while the examples in this repository are more R focused and
+will be used in a shorter format
+[workshop](https://datascience.cct.arizona.edu/events/automating-research-data-workflows-github-actions)
 at University of Arizona.
 
 ## Using this repository
@@ -26,7 +27,7 @@ files defining the workflows have them all set to be triggered on
 `workflow_dispatch` so you can run them by selecting a workflow and
 clicking the “Run workflow” button.
 
-The .yaml files defining the workflows are in `.github/workflows` . R
+The .yaml files defining the workflows are in `.github/workflows`. R
 code run by some of these workflows is in the `R/` folder. Reports
 rendered by some of the actions include the source for this document,
 `README.qmd` , and `docs/report.qmd`.
@@ -35,8 +36,7 @@ rendered by some of the actions include the source for this document,
 
 The example data in `data/heliconia_sample.csv` is modified from Bruna
 et al. (2023). Data validation was run on this dataset using GitHub
-Actions in this repo:
-[https://github.com/BrunaLab/HeliconiaSurveys](https://github.com/BrunaLab/HeliconiaSurveys?tab=readme-ov-file).
+Actions in this repo: <https://github.com/BrunaLab/HeliconiaSurveys>.
 
 ### References
 
