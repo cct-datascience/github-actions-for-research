@@ -1,24 +1,26 @@
-# GitHub Actions For Research
-Eric Scott
+# GitHub Actions For Scientific Data Workflows
+
 
 <!-- README.md is generated from README.qmd.  Do not edit README.md, edit README.qmd instead! -->
 
 This repository contains some example uses of GitHub Actions for
 automating scientific data workflows. It is inspired heavily by [a
 workshop](https://githubactionstutorial-usrse24.readthedocs.io/en/latest/intro.html)
-given at US-RSE 2024 by @valentina-s, @gbrencher, and @scottyhq. Their
-book and repository contains additional examples and is more python
-focused, while the examples in this repository are more R focused and
+given at US-RSE 2024 by [@valentina-s](https://github.com/valentina-s),
+[@gbrencher](https://github.com/gbrencher), and
+[@scottyhq](https://github.com/scottyhq). Their book and repository
+contain additional examples that are more python focused and maybe more
+advanced, while the examples in this repository are more R focused and
 will be used in a shorter format
 [workshop](https://datascience.cct.arizona.edu/events/automating-research-data-workflows-github-actions)
-at University of Arizona.
+at the University of Arizona.
 
 ## Using this repository
 
 This is a template repository, so you can make a copy of it by clicking
 the green “use this template” button.
 
-![](images/Screenshot%202024-11-18%20at%203.01.38%20PM.png)
+![](images/Screenshot.png)
 
 Once you’ve successfully created a repository in your own GitHub
 username or organization, you can navigate to the “Actions” tab where
