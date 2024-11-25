@@ -27,8 +27,15 @@ Reports rendered by some of the actions include the source for this document, `R
 
 ## Example data
 
-The example data in `data/heliconia_sample.csv` is modified from @bruna2023 (with an accompanying data paper [@bruna2023a]).
+The example data in `data/heliconia_sample.csv` is modified from @bruna2023.
 Data validation was run on this dataset using GitHub Actions in this repo: [https://github.com/BrunaLab/HeliconiaSurveys](https://github.com/BrunaLab/HeliconiaSurveys?tab=readme-ov-file).
+
+### References
+
+::: refs
+:::
+
+------------------------------------------------------------------------
 
 ## Report
 
@@ -68,8 +75,3 @@ ggplot(heliconia_tidy, aes(infl)) +
   geom_histogram(bins = 20, na.rm = TRUE) +
   labs(title = "Infloresence Count")
 ```
-
-### References
-
-::: refs
-:::

@@ -33,11 +33,18 @@ rendered by some of the actions include the source for this document,
 
 ## Example data
 
-The example data in `data/heliconia_sample.csv` is modified from E.
-Bruna et al. (2023) (with an accompanying data paper (E. M. Bruna et al.
-2023)). Data validation was run on this dataset using GitHub Actions in
-this repo:
+The example data in `data/heliconia_sample.csv` is modified from Bruna
+et al. (2023). Data validation was run on this dataset using GitHub
+Actions in this repo:
 [https://github.com/BrunaLab/HeliconiaSurveys](https://github.com/BrunaLab/HeliconiaSurveys?tab=readme-ov-file).
+
+### References
+
+<div class="refs">
+
+</div>
+
+------------------------------------------------------------------------
 
 ## Report
 
@@ -50,32 +57,16 @@ updated histograms of the example dataset in `data/heliconia_sample.csv`
 
 ![](README_files/figure-commonmark/unnamed-chunk-2-3.png)
 
-### References
-
-<div class="refs">
-
-</div>
-
 <div id="refs" class="references csl-bib-body hanging-indent"
 entry-spacing="0">
 
-<div id="ref-bruna2023a" class="csl-entry">
-
-Bruna, Emilio M., María Uriarte, Maria Rosa Darrigo, Paulo Rubim,
-Cristiane F. Jurinitz, Eric R. Scott, Osmaildo Ferreira da Silva, and W.
-John Kress. 2023. “Demography of the Understory Herb *Heliconia
-Acuminata* (Heliconiaceae) in an Experimentally Fragmented Tropical
-Landscape.” *Ecology* 104 (12). <https://doi.org/10.1002/ecy.4174>.
-
-</div>
-
 <div id="ref-bruna2023" class="csl-entry">
 
-Bruna, Emilio, María Uriarte, Maria Rosa Darrigo, Paulo Rubim, Cristiane
-Jurinitz, Eric Scott, Osmaildo Ferreira Da Silva, and John W. Kress.
-2023. “Demography of the Understory Herb Heliconia Acuminata
-(Heliconiaceae) in an Experimentally Fragmented Tropical Landscape.”
-Dryad. <https://doi.org/10.5061/DRYAD.STQJQ2C8D>.
+Bruna, Emilio M., María Uriarte, Maria Rosa Darrigo, Paulo Rubim,
+Cristiane F. Jurinitz, Eric R. Scott, Osmaildo Ferreira da Silva, and
+John W. Kress. 2023. “Demography of the Understory Herb *Heliconia
+Acuminata* (Heliconiaceae) in an Experimentally Fragmented Tropical
+Landscape.” *Ecology* 104 (12). <https://doi.org/10.1002/ecy.4174>.
 
 </div>
 
