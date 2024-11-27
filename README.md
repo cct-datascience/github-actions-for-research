@@ -3,7 +3,13 @@
 
 <!-- README.md is generated from README.qmd.  Do not edit README.md, edit README.qmd instead! -->
 
+<!-- badges: start -->
+
+[![Project Status: Active – The project has reached a stable, usable
+state and is being actively
+developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![DOI](https://zenodo.org/badge/880484181.svg)](https://doi.org/10.5281/zenodo.14232509)
+<!-- badges: end -->
 
 This repository contains some example uses of GitHub Actions for
 automating scientific data workflows. It is inspired heavily by [a
