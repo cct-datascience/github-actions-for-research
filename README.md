@@ -3,6 +3,8 @@
 
 <!-- README.md is generated from README.qmd.  Do not edit README.md, edit README.qmd instead! -->
 
+[![DOI](https://zenodo.org/badge/880484181.svg)](https://doi.org/10.5281/zenodo.14232509)
+
 This repository contains some example uses of GitHub Actions for
 automating scientific data workflows. It is inspired heavily by [a
 workshop](https://githubactionstutorial-usrse24.readthedocs.io/en/latest/intro.html)

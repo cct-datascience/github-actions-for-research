@@ -6,6 +6,8 @@ bibliography: references.bib
 
 <!-- README.md is generated from README.qmd.  Do not edit README.md, edit README.qmd instead! -->
 
+[![DOI](https://zenodo.org/badge/880484181.svg)](https://doi.org/10.5281/zenodo.14232509)
+
 This repository contains some example uses of GitHub Actions for automating scientific data workflows.
 It is inspired heavily by [a workshop](https://githubactionstutorial-usrse24.readthedocs.io/en/latest/intro.html) given at US-RSE 2024 by [\@valentina-s](https://github.com/valentina-s), [\@gbrencher](https://github.com/gbrencher), and [\@scottyhq](https://github.com/scottyhq).
 Their book and repository contain additional examples that are more python focused and maybe more advanced, while the examples in this repository are more R focused and will be used in a shorter format [workshop](https://datascience.cct.arizona.edu/events/automating-research-data-workflows-github-actions) at the University of Arizona.
